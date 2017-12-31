@@ -127,9 +127,9 @@
 				<integer>7</integer>
 			</dict>
 			<key>uniqueID</key>
-			<integer>827761170</integer>
+			<integer>-523297579</integer>
 		</dict>
-		<string>iPad</string>
+		<string>TouchOSC Bridge</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -320,9 +320,9 @@
 				<integer>20</integer>
 			</dict>
 			<key>uniqueID</key>
-			<integer>1361450879</integer>
+			<integer>-2052359058</integer>
 		</dict>
-		<string>iPad</string>
+		<string>TouchOSC Bridge</string>
 		<dict>
 			<key>$class</key>
 			<dict>
