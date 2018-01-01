@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <settings>
+  <setting channel="2" controller="60" command_string="ResetstraightenAngle"/>
+  <setting channel="11" controller="24" command_string="ResetBlueSaturation"/>
+  <setting channel="11" controller="23" command_string="ResetBlueHue"/>
+  <setting channel="11" controller="22" command_string="ResetGreenSaturation"/>
+  <setting channel="11" controller="21" command_string="ResetGreenHue"/>
+  <setting channel="11" controller="20" command_string="ResetRedSaturation"/>
+  <setting channel="11" controller="19" command_string="ResetRedHue"/>
+  <setting channel="11" controller="18" command_string="ResetShadowTint"/>
+  <setting channel="10" controller="24" command_string="BlueSaturation"/>
+  <setting channel="10" controller="23" command_string="BlueHue"/>
+  <setting channel="10" controller="22" command_string="GreenSaturation"/>
+  <setting channel="10" controller="21" command_string="GreenHue"/>
+  <setting channel="10" controller="19" command_string="RedHue"/>
+  <setting channel="10" controller="18" command_string="ShadowTint"/>
+  <setting channel="4" note="10" command_string="Unmapped"/>
+  <setting channel="4" controller="9" command_string="Unmapped"/>
   <setting channel="9" controller="27" command_string="PasteSettings"/>
   <setting channel="2" controller="51" command_string="Unmapped"/>
   <setting channel="9" controller="102" command_string="RevealPanelTone"/>
   <setting channel="1" controller="86" command_string="LuminanceAdjustmentAqua"/>
   <setting channel="9" controller="0" command_string="WhiteBalanceAs_Shot"/>
   <setting channel="2" controller="56" command_string="Unmapped"/>
+  <setting channel="9" controller="107" command_string="RevealPanelEffects"/>
   <setting channel="9" controller="26" command_string="CopySettings"/>
   <setting channel="9" controller="24" command_string="Redo"/>
   <setting channel="2" controller="58" command_string="Unmapped"/>
+  <setting channel="9" controller="109" command_string="RevealPanelLens"/>
   <setting channel="1" controller="93" command_string="SaturationAdjustmentPurple"/>
   <setting channel="9" controller="25" command_string="Unmapped"/>
   <setting channel="2" controller="28" command_string="ResetGrayMixerYellow"/>
+  <setting channel="9" controller="110" command_string="RevealPanelCalibrate"/>
   <setting channel="2" controller="59" command_string="Unmapped"/>
   <setting channel="9" controller="19" command_string="ConvertToGrayscale"/>
   <setting channel="2" controller="53" command_string="Unmapped"/>
@@ -31,6 +50,7 @@
   <setting channel="9" controller="106" command_string="RevealPanelDetail"/>
   <setting channel="2" controller="55" command_string="Unmapped"/>
   <setting channel="2" controller="57" command_string="Unmapped"/>
+  <setting channel="9" controller="108" command_string="RevealPanelTransform"/>
   <setting channel="1" controller="44" command_string="Unmapped"/>
   <setting channel="2" controller="50" command_string="Unmapped"/>
   <setting channel="9" controller="101" command_string="RevealPanelAdjust"/>
@@ -40,7 +60,6 @@
   <setting channel="2" controller="48" command_string="Unmapped"/>
   <setting channel="1" controller="35" command_string="Unmapped"/>
   <setting channel="9" controller="23" command_string="Undo"/>
-  <setting channel="2" controller="60" command_string="Unmapped"/>
   <setting channel="1" controller="96" command_string="Unmapped"/>
   <setting channel="2" controller="61" command_string="Unmapped"/>
   <setting channel="2" controller="63" command_string="Unmapped"/>
@@ -107,7 +126,7 @@
   <setting channel="2" controller="87" command_string="ResetGrayMixerAqua"/>
   <setting channel="2" controller="89" command_string="ResetSaturationAdjustmentBlue"/>
   <setting channel="1" controller="25" command_string="HueAdjustmentOrange"/>
-  <setting channel="1" controller="58" command_string="Unmapped"/>
+  <setting channel="1" controller="58" command_string="CropTop"/>
   <setting channel="2" controller="122" command_string="Resetlocal_Saturation"/>
   <setting channel="1" controller="27" command_string="LuminanceAdjustmentOrange"/>
   <setting channel="2" controller="91" command_string="ResetGrayMixerBlue"/>
@@ -216,18 +235,19 @@
   <setting channel="2" controller="71" command_string="ResetBlacks"/>
   <setting channel="1" controller="7" command_string="Unmapped"/>
   <setting channel="9" controller="12" command_string="SpotRemoval"/>
-  <setting channel="1" controller="57" command_string="Unmapped"/>
+  <setting channel="1" controller="57" command_string="CropRight"/>
   <setting channel="2" controller="121" command_string="Unmapped"/>
   <setting channel="9" controller="14" command_string="GraduatedFilter"/>
-  <setting channel="1" controller="59" command_string="Unmapped"/>
+  <setting channel="1" controller="59" command_string="CropBottom"/>
   <setting channel="2" controller="123" command_string="Resetlocal_Dehaze"/>
   <setting channel="2" controller="125" command_string="Resetlocal_LuminanceNoise"/>
   <setting channel="1" controller="61" command_string="Unmapped"/>
   <setting channel="4" controller="14" command_string="Unmapped"/>
+  <setting channel="10" controller="1" command_string="PerspectiveHorizontal"/>
   <setting channel="2" controller="17" command_string="ResetHueAdjustmentMagenta"/>
   <setting channel="1" controller="117" command_string="local_Highlights"/>
   <setting channel="9" controller="15" command_string="RadialFilter"/>
-  <setting channel="1" controller="60" command_string="Unmapped"/>
+  <setting channel="1" controller="60" command_string="straightenAngle"/>
   <setting channel="2" controller="124" command_string="Resetlocal_Sharpness"/>
   <setting channel="2" controller="19" command_string="ResetLuminanceAdjustmentMagenta"/>
   <setting channel="1" controller="119" command_string="local_Blacks2012"/>
@@ -262,7 +282,7 @@
   <setting channel="2" controller="25" command_string="ResetHueAdjustmentOrange"/>
   <setting channel="1" controller="125" command_string="local_LuminanceNoise"/>
   <setting channel="9" controller="11" command_string="CropOverlay"/>
-  <setting channel="1" controller="56" command_string="Unmapped"/>
+  <setting channel="1" controller="56" command_string="CropLeft"/>
   <setting channel="2" controller="120" command_string="Resetlocal_Clarity"/>
   <setting channel="2" controller="16" command_string="ResetGrayMixerMagenta"/>
   <setting channel="1" controller="116" command_string="local_Whites2012"/>
@@ -272,5 +292,54 @@
   <setting channel="1" controller="127" command_string="local_Defringe"/>
   <setting channel="2" controller="32" command_string="Unmapped"/>
   <setting channel="4" controller="2" command_string="RevealPanelSplit"/>
+  <setting channel="10" controller="20" command_string="RedSaturation"/>
   <setting channel="16" controller="7" command_string="Unmapped"/>
+  <setting channel="9" controller="28" command_string="PostCropVignetteStyleHighlightPriority"/>
+  <setting channel="9" controller="29" command_string="PostCropVignetteStyleColorPriority"/>
+  <setting channel="9" controller="30" command_string="PostCropVignetteStylePaintOverlay"/>
+  <setting channel="9" controller="31" command_string="UprightOff"/>
+  <setting channel="9" controller="32" command_string="UprightAuto"/>
+  <setting channel="9" controller="33" command_string="UprightGuided"/>
+  <setting channel="9" controller="34" command_string="UprightLevel"/>
+  <setting channel="9" controller="35" command_string="UprightVertical"/>
+  <setting channel="9" controller="36" command_string="UprightFull"/>
+  <setting channel="10" controller="0" command_string="PerspectiveVertical"/>
+  <setting channel="10" controller="2" command_string="PerspectiveRotate"/>
+  <setting channel="10" controller="3" command_string="PerspectiveAspect"/>
+  <setting channel="10" controller="4" command_string="PerspectiveScale"/>
+  <setting channel="10" controller="5" command_string="PerspectiveX"/>
+  <setting channel="10" controller="6" command_string="PerspectiveY"/>
+  <setting channel="11" controller="0" command_string="ResetPerspectiveVertical"/>
+  <setting channel="11" controller="1" command_string="ResetPerspectiveHorizontal"/>
+  <setting channel="11" controller="2" command_string="ResetPerspectiveRotate"/>
+  <setting channel="11" controller="3" command_string="ResetPerspectiveAspect"/>
+  <setting channel="11" controller="4" command_string="ResetPerspectiveScale"/>
+  <setting channel="11" controller="5" command_string="ResetPerspectiveX"/>
+  <setting channel="11" controller="6" command_string="ResetPerspectiveY"/>
+  <setting channel="9" controller="37" command_string="EnableLensCorrections"/>
+  <setting channel="4" note="8" command_string="Unmapped"/>
+  <setting channel="9" controller="38" command_string="AutoLateralCA"/>
+  <setting channel="9" controller="39" command_string="CropConstrainToWarp"/>
+  <setting channel="10" controller="7" command_string="LensProfileDistortionScale"/>
+  <setting channel="10" controller="8" command_string="LensProfileVignettingScale"/>
+  <setting channel="10" controller="9" command_string="LensManualDistortionAmount"/>
+  <setting channel="10" controller="10" command_string="VignetteAmount"/>
+  <setting channel="10" controller="11" command_string="VignetteMidpoint"/>
+  <setting channel="10" controller="12" command_string="DefringePurpleAmount"/>
+  <setting channel="10" controller="13" command_string="DefringePurpleHueLo"/>
+  <setting channel="10" controller="14" command_string="DefringePurpleHueHi"/>
+  <setting channel="10" controller="15" command_string="DefringeGreenAmount"/>
+  <setting channel="10" controller="16" command_string="DefringeGreenHueLo"/>
+  <setting channel="10" controller="17" command_string="DefringeGreenHueHi"/>
+  <setting channel="11" controller="7" command_string="ResetLensProfileDistortionScale"/>
+  <setting channel="11" controller="8" command_string="ResetLensProfileVignettingScale"/>
+  <setting channel="11" controller="9" command_string="ResetLensManualDistortionAmount"/>
+  <setting channel="11" controller="10" command_string="ResetVignetteAmount"/>
+  <setting channel="11" controller="11" command_string="ResetVignetteMidpoint"/>
+  <setting channel="11" controller="12" command_string="ResetDefringePurpleAmount"/>
+  <setting channel="11" controller="13" command_string="ResetDefringePurpleHueLo"/>
+  <setting channel="11" controller="14" command_string="ResetDefringePurpleHueHi"/>
+  <setting channel="11" controller="15" command_string="ResetDefringeGreenAmount"/>
+  <setting channel="11" controller="16" command_string="ResetDefringeGreenHueLo"/>
+  <setting channel="11" controller="17" command_string="ResetDefringeGreenHueHi"/>
 </settings>
